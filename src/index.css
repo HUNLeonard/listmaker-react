@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root{
+  font-family: Helvetica, sans-serif;
+}
+
+
+@theme {
+  --breakpoint-xs: 480px;
+
+  --color-gray: #333333;
+  --color-gray-dark: #222222;
+  --color-gray-light: #cccccc;
+  --color-ongoing: #98c1d9;
+  --color-done: #ee6c4d;
+}
