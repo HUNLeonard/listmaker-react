@@ -19,7 +19,7 @@ const Task = ({ id }: { id: string | undefined }) => {
       className="flex justify-between flex-col bg-white rounded-sm min-h-20 text-black p-2 cursor-move"
     >
       <div className="flex flex-row justify-between">
-        <p className="max-w-4/6 break-all max-lg:text-sm line-clamp-6" title={task?.title}>
+        <p className="max-w-4/6 break-word max-lg:text-sm line-clamp-6" title={task?.title}>
           {task?.title}
         </p>
         <div className="flex gap-1 items-start">
